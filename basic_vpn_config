@@ -1,6 +1,6 @@
 ##basic vpn configuration with wide open policy just to allow connectivity#
 #This file has two configs for two Palos. First is for the vendor's Palo and the second is for the HQ headend#
-#use set cli scripting-mode on to past in config to cli#
+
 #hostname vendor1#
 config {
   mgt-config {
