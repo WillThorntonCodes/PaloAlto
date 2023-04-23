@@ -13,7 +13,7 @@ commit
 Enter password manually to confirm.
 
 ### Update management interface
-The Palo Alto default management IP is 192.168.1.1 at device boot. Use this IP if connecting on a local network to manage via CLI or GUI. If this subnet is not available on your network then set manually as noted below:
+The Palo Alto default management IP is 192.168.1.1 at device boot. If using a VM the managemnt IP most likely will be blank. Use this IP if connecting on a local network to manage via CLI or GUI. If this subnet is not available on your network then set manually as noted below:
 ```
 configure
 set deviceconfig system ip-address <Static IP> netmask <Netmask> default-gateway <Gateway IP> type static
