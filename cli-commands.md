@@ -28,7 +28,7 @@ Interface IP address (dynamic): 192.168.100.186/24
 ```
 ## Set security zone
 ```
-set zone untrust network layer3 interface1/1
+set zone untrust network layer3 ethernet1/1
 ```
   
 ## Set security rule
