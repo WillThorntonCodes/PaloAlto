@@ -52,3 +52,14 @@ rules {
   }
 }
 ```
+## Set nat rule
+```
+set rulebase nat rules internet-nat nat-type ipv4
+set rulebase nat rules internet-nat source 192.168.4.0/24
+set rulebase nat rules internet-nat from trust
+set rulebase nat rules internet-nat to untrust
+set rulebase nat rules internet-nat destination any
+set rulebase nat rules internet-nat to-interface ethernet1/2
+set rulebase nat rules internet-nat service any
+set rulebase nat rules internet-nat source-translation dynamic-ip-and-port translated-address 192.168.122.201
+```
